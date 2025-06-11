@@ -248,7 +248,6 @@ const Header = (props) => {
                 <Button sx={navLinkStyle('about')} onClick={() => scrollToSection('about')}>ABOUT ME</Button>
                 <Button sx={navLinkStyle('skills')} onClick={() => scrollToSection('skills')}>SKILLS</Button>
                 <Button sx={navLinkStyle('experience')} onClick={() => scrollToSection('experience')}>EXPERIENCE</Button>
-                // <Button sx={navLinkStyle('articles')} onClick={() => scrollToSection('articles')}>ARTICLES</Button> {/* ADDED: Articles menu item */}
                 <Button sx={navLinkStyle('contact')} onClick={() => scrollToSection('contact')}>CONTACT</Button>
               </Box>
 
@@ -314,7 +313,6 @@ const Header = (props) => {
               <Button fullWidth sx={{ color: theme.vars.palette.text.primary, py: 1 }} onClick={() => scrollToSection('about')}>About Me</Button>
               <Button fullWidth sx={{ color: theme.vars.palette.text.primary, py: 1 }} onClick={() => scrollToSection('skills')}>Skills</Button>
               <Button fullWidth sx={{ color: theme.vars.palette.text.primary, py: 1 }} onClick={() => scrollToSection('experience')}>EXPERIENCE</Button>
-              // <Button fullWidth sx={{ color: theme.vars.palette.text.primary, py: 1 }} onClick={() => scrollToSection('articles')}>ARTICLES</Button> {/* ADDED: Articles menu item for mobile */}
               <Button fullWidth sx={{ color: theme.vars.palette.text.primary, py: 1 }} onClick={() => scrollToSection('contact')}>Contact</Button>
               <Button
                 fullWidth
