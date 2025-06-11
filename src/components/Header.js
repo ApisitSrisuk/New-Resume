@@ -53,7 +53,7 @@ const Header = (props) => {
     );
 
     // UPDATED: Added 'articles' back into the sections array
-    const sections = ['home', 'about', 'skills', 'experience', 'articles', 'contact']; // Re-added articles
+    const sections = ['home', 'about', 'skills', 'experience', 'contact']; // Re-added articles
     sections.forEach((id) => {
       const element = document.getElementById(id);
       if (element) {
