@@ -1,7 +1,39 @@
 /* src/App.css */
+*{
+  font-family: 'Kanit', 'Inter', sans-serif;
+  scroll-behavior: smooth;
+ 
+}
 body {
-  font-family: 'Roboto', sans-serif; /* ตรวจสอบว่าคุณได้ import ฟอนต์นี้ใน index.html หรือ index.css */
-  scroll-behavior: smooth; /* ทำให้การเลื่อนไปยัง Section ต่างๆ เป็นไปอย่างนุ่มนวล */
+  /* กำหนดให้ Kanit เป็น Font หลักของทั้งเว็บ */
+  font-family: 'Kanit', 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  /* คุณอาจจะปรับขนาด Font พื้นฐานของ body ได้ที่นี่ */
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-/* คุณสามารถเพิ่ม CSS ทั่วไปอื่นๆ ได้ที่นี่ */
+/* สำหรับหัวข้อ (Headings) หรือส่วนที่ต้องการน้ำหนักที่แตกต่างกัน */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kanit', 'Inter', sans-serif;
+  font-weight: 700; /* ตัวอย่างการใช้น้ำหนัก Bold */
+  color: #333;
+}
+
+/* สำหรับข้อความทั่วไปหรือ paragraph */
+p {
+  font-family: 'Kanit', 'Inter', sans-serif;
+  font-weight: 400; /* ตัวอย่างการใช้น้ำหนัก Regular */
+}
+
+/* คุณสามารถกำหนดน้ำหนัก Font หรือ Style อื่นๆ ให้กับองค์ประกอบต่างๆ ได้ตามต้องการ */
+.navigation-item {
+  font-family: 'Kanit', 'Inter', sans-serif;
+  font-weight: 500; /* ตัวอย่างน้ำหนัก Medium */
+}
+
+.hero-section-title {
+  font-family: 'Kanit', 'Inter', sans-serif;
+  font-weight: 800; /* ตัวอย่างน้ำหนัก ExtraBold */
+  font-size: 48px;
+}

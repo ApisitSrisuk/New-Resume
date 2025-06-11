@@ -2,6 +2,7 @@
 import { experimental_extendTheme as extendTheme } from '@mui/material/styles';
 
 const theme = extendTheme({
+  // กำหนด color schemes สำหรับ light และ dark mode
   colorSchemes: {
     light: {
       palette: {
@@ -55,8 +56,10 @@ const theme = extendTheme({
       },
     },
   },
+  // ส่วนสำคัญ: กำหนด Font Family ที่นี่
   typography: {
-    fontFamily: ['"Inter"', 'sans-serif'].join(','),
+    // กำหนดลำดับ Font: Kanit (ไทย), Inter (อังกฤษ/Fallback), sans-serif (Generic Fallback)
+    fontFamily: ['"Kanit"', '"Inter"', 'sans-serif'].join(','),
     h1: {
       fontSize: '3.8rem',
       '@media (min-width:600px)': {
@@ -109,6 +112,7 @@ const theme = extendTheme({
       fontWeight: 600,
     },
   },
+  // กำหนด overrides สำหรับ Material-UI components
   components: {
     MuiButton: {
       defaultProps: {

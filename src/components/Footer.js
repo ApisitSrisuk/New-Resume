@@ -47,12 +47,7 @@ const Footer = () => {
           </Link>
         </Stack>
 
-        <Typography variant="body2">
-          &copy; {new Date().getFullYear()} Apisit Srisuk. All rights reserved.
-        </Typography>
-        <Typography variant="body2" sx={{ mt: 1 }}>
-          Built with React & Material-UI.
-        </Typography>
+       
       </Container>
     </Box>
   );
